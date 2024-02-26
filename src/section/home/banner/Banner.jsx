@@ -2,7 +2,7 @@
 import { useModal } from "@/utils/ModalContext";
 
 // ** Component Imports
-import { Slider, SliderItem } from "@/common/slider/Slider";
+// import { Slider, SliderItem } from "@/common/slider/Slider";
 import Counter from "@/common/counter";
 import Button from "@/common/button";
 import CoinInfoSlider from "@/section/home/banner/coin-info-slider";
@@ -22,21 +22,21 @@ const Banner = () => {
   const { mintModalHandle } = useModal();
 
   // ** Vars
-  const slideImages = [thumb1, thumb1];
-  const settings = {
-    dots: false,
-    arrows: false,
-    autoplay: true,
-    pauseOnHover: false,
-    speed: 500,
-    fade: true,
-    autoplaySpeed: 500,
-    centerMode: true,
-    centerPadding: "0px",
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  // const slideImages = [thumb1, thumb1];
+  // const settings = {
+  //   dots: false,
+  //   arrows: false,
+  //   autoplay: true,
+  //   pauseOnHover: false,
+  //   speed: 500,
+  //   fade: true,
+  //   autoplaySpeed: 500,
+  //   centerMode: true,
+  //   centerPadding: "0px",
+  //   infinite: true,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // };
 
   return (
     <BannerWrapper id="home">
@@ -79,7 +79,7 @@ const Banner = () => {
           </div>
           <div className="col-lg-6 order-0 order-lg-1">
             <div className="banner_right">
-              <Slider {...settings}>
+              {/* <Slider {...settings}>
                 {slideImages?.map((thumb, idx) => (
                   <SliderItem key={idx}>
                     <div className="banner_thumb">
@@ -87,7 +87,10 @@ const Banner = () => {
                     </div>
                   </SliderItem>
                 ))}
-              </Slider>
+              </Slider> */}
+              <div className="banner_thumb">
+                <img src={thumb1.src} alt="thumb" />
+              </div>
             </div>
           </div>
         </div>
