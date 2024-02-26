@@ -13,6 +13,22 @@ import data from "@/assets/data/roadMap/roadMapV5";
 
 const RoadMap = () => {
   // ** Vars
+  const PrevArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+      <button className={className} onClick={onClick}>
+        <FiChevronRight />
+      </button>
+    );
+  };
+  const NextArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+      <button className={className} onClick={onClick}>
+        <FiChevronLeft />
+      </button>
+    );
+  };
   const sliderSettings = {
     dots: false,
     arrows: true,
@@ -49,24 +65,6 @@ const RoadMap = () => {
         },
       },
     ],
-  };
-
-  // ** Logics
-  const PrevArrow = (props) => {
-    const { className, onClick } = props;
-    return (
-      <button className={className} onClick={onClick}>
-        <FiChevronRight />
-      </button>
-    );
-  };
-  const NextArrow = (props) => {
-    const { className, onClick } = props;
-    return (
-      <button className={className} onClick={onClick}>
-        <FiChevronLeft />
-      </button>
-    );
   };
 
   return (
