@@ -22,7 +22,7 @@ const Banner = () => {
   const { mintModalHandle } = useModal();
 
   // ** Vars
-  const slideImages = [thumb1];
+  const slideImages = [thumb1, thumb1];
   const settings = {
     dots: false,
     arrows: false,
