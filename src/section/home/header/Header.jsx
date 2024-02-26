@@ -1,6 +1,9 @@
 // ** React Imports
 import { useEffect, Fragment } from "react";
 
+// ** Next Imports
+import Image from "next/image";
+
 // ** Context Imports
 import { useModal } from "@/utils/ModalContext";
 
@@ -42,7 +45,7 @@ const Header = () => {
         <div className="header_wrapper">
           <div className="header_left">
             <div className="logo">
-              <img src={logo.src} alt="logo" />
+              <Image width={28} height={28} src={logo.src} alt="logo" />
             </div>
           </div>
           <div className="header_right">

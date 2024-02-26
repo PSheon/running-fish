@@ -1,5 +1,6 @@
 // ** Next Imports
 import Link from "next/link";
+import Image from "next/image";
 
 // ** Component Imports
 import SectionTitle from "@/common/sectionTitle";
@@ -35,7 +36,12 @@ const Team = () => {
             <div className="team_member_list">
               <div className="team_member_item">
                 <div className="member_avatar">
-                  <img src={avatar1.src} alt="avatar" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src={avatar1.src}
+                    alt="avatar"
+                  />
                 </div>
                 <div className="member_details">
                   <h6>
@@ -57,7 +63,12 @@ const Team = () => {
 
               <div className="team_member_item">
                 <div className="member_avatar">
-                  <img src={avatar3.src} alt="avatar" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src={avatar3.src}
+                    alt="avatar"
+                  />
                 </div>
                 <div className="member_details">
                   <h6>
@@ -79,7 +90,12 @@ const Team = () => {
 
               <div className="team_member_item">
                 <div className="member_avatar">
-                  <img src={avatar2.src} alt="avatar" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src={avatar2.src}
+                    alt="avatar"
+                  />
                 </div>
                 <div className="member_details">
                   <h6>
@@ -104,7 +120,12 @@ const Team = () => {
             <div className="team_member_list">
               <div className="team_member_item">
                 <div className="member_avatar">
-                  <img src={avatar4.src} alt="avatar" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src={avatar4.src}
+                    alt="avatar"
+                  />
                 </div>
                 <div className="member_details">
                   <h6>
@@ -125,7 +146,12 @@ const Team = () => {
               </div>
               <div className="team_member_item">
                 <div className="member_avatar">
-                  <img src={avatar5.src} alt="avatar" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src={avatar5.src}
+                    alt="avatar"
+                  />
                 </div>
                 <div className="member_details">
                   <h6>
@@ -146,7 +172,12 @@ const Team = () => {
               </div>
               <div className="team_member_item">
                 <div className="member_avatar">
-                  <img src={avatar6.src} alt="avatar" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src={avatar6.src}
+                    alt="avatar"
+                  />
                 </div>
                 <div className="member_details">
                   <h6>
@@ -171,7 +202,12 @@ const Team = () => {
             <div className="team_member_list">
               <div className="team_member_item team_member_item_bottom">
                 <div className="member_avatar">
-                  <img src={avatar7.src} alt="avatar" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src={avatar7.src}
+                    alt="avatar"
+                  />
                 </div>
                 <div className="member_details">
                   <h6>

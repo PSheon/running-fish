@@ -1,7 +1,9 @@
+// ** Style Imports
+import SectionTitleWrapper from "./SectionTitle.style";
+
+// ** Asset Imports
 import sectionTitleShape from "@/assets/images/icon/title_shapes.svg";
 import sectionTitleShape2 from "@/assets/images/icon/title_shapes2.svg";
-
-import SectionTitleWrapper from "./SectionTitle.style";
 
 const SectionTitle = ({ title, subtitle, isCenter, ...props }) => {
   return (

@@ -1,3 +1,6 @@
+// ** Next Imports
+import Image from "next/image";
+
 // ** Context Imports
 import { useModal } from "@/utils/ModalContext";
 
@@ -46,7 +49,7 @@ const Banner = () => {
             <div className="banner_left">
               <h2>
                 BUILD & SELL YOUR EVERY PIXEL{" "}
-                <img src={heartIcon.src} alt="icon" />
+                <Image width={57} height={50} src={heartIcon.src} alt="icon" />
               </h2>
               <h3>
                 <span className="count">
@@ -89,7 +92,7 @@ const Banner = () => {
                 ))}
               </Slider> */}
               <div className="banner_thumb">
-                <img src={thumb1.src} alt="thumb" />
+                <Image width={250} height={250} src={thumb1.src} alt="thumb" />
               </div>
             </div>
           </div>
@@ -99,13 +102,13 @@ const Banner = () => {
       <CoinInfoSlider />
 
       <span className="particle_star particle_1">
-        <img src={particle1.src} alt="icon" />
+        <Image width={75} height={100} src={particle1.src} alt="icon" />
       </span>
       <span className="particle_star particle_2">
-        <img src={particle2.src} alt="icon" />
+        <Image width={90} height={80} src={particle2.src} alt="icon" />
       </span>
       <span className="particle_star particle_3">
-        <img src={particle3.src} alt="icon" />
+        <Image width={76} height={72} src={particle3.src} alt="icon" />
       </span>
     </BannerWrapper>
   );
