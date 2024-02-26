@@ -1,15 +1,15 @@
-import thumb1 from "@/src/assets/images/nft/Image.png";
-import thumb2 from "@/src/assets/images/nft/Image-1.png";
-import thumb3 from "@/src/assets/images/nft/Image-2.png";
-import thumb4 from "@/src/assets/images/nft/Image-3.png";
-import thumb5 from "@/src/assets/images/nft/Image-4.png";
-import thumb6 from "@/src/assets/images/nft/Image-5.png";
-import thumb7 from "@/src/assets/images/nft/Image-6.png";
-import thumb8 from "@/src/assets/images/nft/Image-7.png";
-import thumb9 from "@/src/assets/images/nft/Image-8.png";
-import thumb10 from "@/src/assets/images/nft/Image-9.png";
-import thumb11 from "@/src/assets/images/nft/Image-10.png";
-import thumb12 from "@/src/assets/images/nft/Image-11.png";
+import thumb1 from "@/assets/images/nft/Image.png";
+import thumb2 from "@/assets/images/nft/Image-1.png";
+import thumb3 from "@/assets/images/nft/Image-2.png";
+import thumb4 from "@/assets/images/nft/Image-3.png";
+import thumb5 from "@/assets/images/nft/Image-4.png";
+import thumb6 from "@/assets/images/nft/Image-5.png";
+import thumb7 from "@/assets/images/nft/Image-6.png";
+import thumb8 from "@/assets/images/nft/Image-7.png";
+import thumb9 from "@/assets/images/nft/Image-8.png";
+import thumb10 from "@/assets/images/nft/Image-9.png";
+import thumb11 from "@/assets/images/nft/Image-10.png";
+import thumb12 from "@/assets/images/nft/Image-11.png";
 
 export const products = [
   {

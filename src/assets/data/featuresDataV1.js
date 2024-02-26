@@ -1,9 +1,9 @@
-import aboutCardIcon1 from "@/src/assets/images/icon/aboutus_card_icon1.svg";
-import aboutCardIcon2 from "@/src/assets/images/icon/aboutus_card_icon2.svg";
-import aboutCardIcon3 from "@/src/assets/images/icon/aboutus_card_icon3.svg";
-import aboutCardIcon4 from "@/src/assets/images/icon/aboutus_card_icon4.png";
-import aboutCardIcon5 from "@/src/assets/images/icon/aboutus_card_icon5.png";
-import aboutCardIcon6 from "@/src/assets/images/icon/aboutus_card_icon6.png";
+import aboutCardIcon1 from "@/assets/images/icon/aboutus_card_icon1.svg";
+import aboutCardIcon2 from "@/assets/images/icon/aboutus_card_icon2.svg";
+import aboutCardIcon3 from "@/assets/images/icon/aboutus_card_icon3.svg";
+import aboutCardIcon4 from "@/assets/images/icon/aboutus_card_icon4.png";
+import aboutCardIcon5 from "@/assets/images/icon/aboutus_card_icon5.png";
+import aboutCardIcon6 from "@/assets/images/icon/aboutus_card_icon6.png";
 
 const data = [
   {

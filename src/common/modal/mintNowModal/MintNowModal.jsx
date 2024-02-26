@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { useModal } from "@/src/utils/ModalContext";
+import { useModal } from "@/utils/ModalContext";
 import { FiX } from "react-icons/fi";
 import Button from "../../button";
 import MintModalStyleWrapper from "./MintNow.style";
-import mintImg from "@/src/assets/images/icon/mint-img.png";
-import hoverShape from "@/src/assets/images/icon/hov_shape_L.svg";
+import mintImg from "@/assets/images/icon/mint-img.png";
+import hoverShape from "@/assets/images/icon/hov_shape_L.svg";
+
 const MintNowModal = () => {
   const [count, setCount] = useState(1);
   const { mintModalHandle } = useModal();

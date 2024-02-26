@@ -1,7 +1,7 @@
-import Counter from "@/src/common/counter";
+import Counter from "@/common/counter";
 
 import CoinInfoCounterWrapper from "./Counter.style";
-import coinInfoCounterData from "@/src/assets/data/coinInfoCounter.json";
+import coinInfoCounterData from "@/assets/data/coinInfoCounter.json";
 
 const CoinInfoCounter = () => {
   const { info } = coinInfoCounterData;

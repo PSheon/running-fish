@@ -1,5 +1,5 @@
 import Link from "next/link";
-import titleShape from "@/src/assets/images/icon/home-shape.png";
+import titleShape from "@/assets/images/icon/home-shape.png";
 import PageHeaderStyleWrapper from "./PageHeader.style";
 const PageHeader = () => {
   return (

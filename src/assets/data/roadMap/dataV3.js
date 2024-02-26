@@ -1,9 +1,9 @@
-import checkIcon from "@/src/assets/images/blog/arrow.png";
-import thumb1 from "@/src/assets/images/blog/roadmap-img.png";
-import thumb2 from "@/src/assets/images/blog/roadmap-img2.png"; 
-import thumb3 from "@/src/assets/images/blog/roadmap-img3.png";
-import thumb4 from "@/src/assets/images/blog/roadmap-img4.png";
-import thumb5 from "@/src/assets/images/blog/roadmap-img5.png";
+import checkIcon from "@/assets/images/blog/arrow.png";
+import thumb1 from "@/assets/images/blog/roadmap-img.png";
+import thumb2 from "@/assets/images/blog/roadmap-img2.png";
+import thumb3 from "@/assets/images/blog/roadmap-img3.png";
+import thumb4 from "@/assets/images/blog/roadmap-img4.png";
+import thumb5 from "@/assets/images/blog/roadmap-img5.png";
 const data = [
   {
     progressIcon: checkIcon,

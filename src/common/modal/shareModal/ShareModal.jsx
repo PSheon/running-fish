@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { useModal } from "@/src/utils/ModalContext";
+import { useModal } from "@/utils/ModalContext";
 import { FiX } from "react-icons/fi";
 import ShareModalStyleWrapper from "./ShareModal.style";
-import hoverShape from "@/src/assets/images/icon/hov_shape_L.svg";
-import hoverShapeSmall from "@/src/assets/images/icon/hov_shape_s.svg";
-import data from "@/src/assets/data/socialShare";
+import hoverShape from "@/assets/images/icon/hov_shape_L.svg";
+import hoverShapeSmall from "@/assets/images/icon/hov_shape_s.svg";
+import data from "@/assets/data/socialShare";
 const ShareModal = () => {
   const { shareModalHandle } = useModal();
   return (

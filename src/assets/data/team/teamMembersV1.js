@@ -1,13 +1,13 @@
 import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import avatarThumb1 from "@/src/assets/images/team/crew_avatar1.png";
-import avatarThumb2 from "@/src/assets/images/team/crew_avatar2.png";
-import avatarThumb3 from "@/src/assets/images/team/crew_avatar3.png";
-import avatarThumb4 from "@/src/assets/images/team/crew_avatar4.png";
-import avatarThumb5 from "@/src/assets/images/team/crew_avatar5.png";
-import avatarThumb6 from "@/src/assets/images/team/crew_avatar6.png";
-import avatarThumb7 from "@/src/assets/images/team/crew_avatar7.png";
-import avatarThumb8 from "@/src/assets/images/team/crew_avatar8.png";
+import avatarThumb1 from "@/assets/images/team/crew_avatar1.png";
+import avatarThumb2 from "@/assets/images/team/crew_avatar2.png";
+import avatarThumb3 from "@/assets/images/team/crew_avatar3.png";
+import avatarThumb4 from "@/assets/images/team/crew_avatar4.png";
+import avatarThumb5 from "@/assets/images/team/crew_avatar5.png";
+import avatarThumb6 from "@/assets/images/team/crew_avatar6.png";
+import avatarThumb7 from "@/assets/images/team/crew_avatar7.png";
+import avatarThumb8 from "@/assets/images/team/crew_avatar8.png";
 
 const data = [
   {

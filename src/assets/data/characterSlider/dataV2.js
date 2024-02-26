@@ -1,8 +1,8 @@
-import character1 from "@/src/assets/images/nft/carousel_img_1.png";
-import character2 from "@/src/assets/images/nft/carousel_img_2.png";
-import character3 from "@/src/assets/images/nft/carousel_img_3.png";
-import character4 from "@/src/assets/images/nft/carousel_img_4.png";
-import character5 from "@/src/assets/images/nft/carousel_img_5.png";
+import character1 from "@/assets/images/nft/carousel_img_1.png";
+import character2 from "@/assets/images/nft/carousel_img_2.png";
+import character3 from "@/assets/images/nft/carousel_img_3.png";
+import character4 from "@/assets/images/nft/carousel_img_4.png";
+import character5 from "@/assets/images/nft/carousel_img_5.png";
 
 const data = [
   {

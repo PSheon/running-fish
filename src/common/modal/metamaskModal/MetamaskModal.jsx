@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { useModal } from "@/src/utils/ModalContext";
+import { useModal } from "@/utils/ModalContext";
 import { FiX, FiChevronRight } from "react-icons/fi";
 import MetamaskModalStyleWrapper from "./MetamaskModal.style.js";
-import metamaskIcon from "@/src/assets/images/icon/MetaMask.svg";
+import metamaskIcon from "@/assets/images/icon/MetaMask.svg";
 
 const MetamaskModal = () => {
   const { handleMetamaskModal } = useModal();

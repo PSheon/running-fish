@@ -8,8 +8,8 @@ import {
   FaCopy,
 } from "react-icons/fa";
 
-import openseaIcon from "@/src/assets/images/icon/opensea.svg";
-import mediumIcon from "@/src/assets/images/icon/med.svg";
+import openseaIcon from "@/assets/images/icon/opensea.svg";
+import mediumIcon from "@/assets/images/icon/med.svg";
 
 const data = [
   {

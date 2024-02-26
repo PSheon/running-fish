@@ -1,9 +1,9 @@
-import Counter from "@/src/common/counter";
-import bgShape1 from "@/src/assets/images/icon/square_shape_1.png";
-import bgShape2 from "@/src/assets/images/icon/square_shape_2.png";
+import Counter from "@/common/counter";
+import bgShape1 from "@/assets/images/icon/square_shape_1.png";
+import bgShape2 from "@/assets/images/icon/square_shape_2.png";
 
 import CoinInfoCounterWrapper from "./Counter.style";
-import coinInfoCounterData from "@/src/assets/data/coinInfoCounter.json";
+import coinInfoCounterData from "@/assets/data/coinInfoCounter.json";
 
 const CoinInfoCounter = () => {
   const { info } = coinInfoCounterData;

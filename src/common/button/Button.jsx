@@ -1,7 +1,7 @@
 import ButtonWrapper from "./Button.style";
 
-import buttonHoverShapeBlack from "@/src/assets/images/icon/button-hover-shape.svg";
-import buttonHoverShapeWhite from "@/src/assets/images/icon/hov_shape_s.svg";
+import buttonHoverShapeBlack from "@/assets/images/icon/button-hover-shape.svg";
+import buttonHoverShapeWhite from "@/assets/images/icon/hov_shape_s.svg";
 
 const Button = ({ children, ...props }) => {
   return (

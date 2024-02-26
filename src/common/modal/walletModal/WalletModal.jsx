@@ -1,14 +1,14 @@
 import Link from "next/link";
-import { useModal } from "@/src/utils/ModalContext";
+import { useModal } from "@/utils/ModalContext";
 import { FiX, FiChevronRight } from "react-icons/fi";
-import { isMetaMaskInstalled, connectWallet } from "@/src/lib/metamaskhandler";
+import { isMetaMaskInstalled, connectWallet } from "@/lib/metamaskhandler";
 import WalletModalStyleWrapper from "./WalletModal.style";
 
-import hoverShape from "@/src/assets/images/icon/hov_shape_L.svg";
-import metamaskIcon from "@/src/assets/images/icon/MetaMask.svg";
-import formatic from "@/src/assets/images/icon/Formatic.svg";
-import trustWalletIcon from "@/src/assets/images/icon/Trust_Wallet.svg";
-import walletConnect from "@/src/assets/images/icon/WalletConnect.svg";
+import hoverShape from "@/assets/images/icon/hov_shape_L.svg";
+import metamaskIcon from "@/assets/images/icon/MetaMask.svg";
+import formatic from "@/assets/images/icon/Formatic.svg";
+import trustWalletIcon from "@/assets/images/icon/Trust_Wallet.svg";
+import walletConnect from "@/assets/images/icon/WalletConnect.svg";
 const WalletModal = () => {
   const { walletModalHandle, handleMetamaskModal } = useModal();
 

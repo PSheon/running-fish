@@ -1,8 +1,8 @@
 import { FiCheck, FiMinus } from "react-icons/fi";
-import thumb1 from "@/src/assets/images/nft/roadmap_item1.png";
-import thumb2 from "@/src/assets/images/nft/roadmap_item2.png";
-import thumb3 from "@/src/assets/images/nft/roadmap_item3.png";
-import thumb4 from "@/src/assets/images/nft/roadmap_item4.png"; 
+import thumb1 from "@/assets/images/nft/roadmap_item1.png";
+import thumb2 from "@/assets/images/nft/roadmap_item2.png";
+import thumb3 from "@/assets/images/nft/roadmap_item3.png";
+import thumb4 from "@/assets/images/nft/roadmap_item4.png";
 
 const data = [
   {

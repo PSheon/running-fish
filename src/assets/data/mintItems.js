@@ -1,6 +1,6 @@
-import thumb1 from "@/src/assets/images/nft/mint-item_card_img1.png";
-import thumb2 from "@/src/assets/images/nft/mint-item_card_img2.png";
-import thumb3 from "@/src/assets/images/nft/mint-item_card_img3.png";
+import thumb1 from "@/assets/images/nft/mint-item_card_img1.png";
+import thumb2 from "@/assets/images/nft/mint-item_card_img2.png";
+import thumb3 from "@/assets/images/nft/mint-item_card_img3.png";
 
 const data = [
   {

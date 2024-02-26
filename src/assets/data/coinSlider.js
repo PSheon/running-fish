@@ -1,4 +1,4 @@
-import shapeIcon from "@/src/assets/images/icon/mint_live_icon.svg";
+import shapeIcon from "@/assets/images/icon/mint_live_icon.svg";
 
 const data = [
   {

@@ -1,9 +1,9 @@
 import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import avatarThumb1 from "@/src/assets/images/team/v2_team_1.png"; 
-import avatarThumb2 from "@/src/assets/images/team/v2_team_2.png"; 
-import avatarThumb3 from "@/src/assets/images/team/v2_team_3.png"; 
-import avatarThumb4 from "@/src/assets/images/team/v2_team_4.png"; 
+import avatarThumb1 from "@/assets/images/team/v2_team_1.png";
+import avatarThumb2 from "@/assets/images/team/v2_team_2.png";
+import avatarThumb3 from "@/assets/images/team/v2_team_3.png";
+import avatarThumb4 from "@/assets/images/team/v2_team_4.png";
 
 const data = [
   {
@@ -24,7 +24,7 @@ const data = [
         url: "#",
       },
     ],
-  },    
+  },
   {
     avatar: avatarThumb2,
     name: "Nathan Bean",
@@ -43,7 +43,7 @@ const data = [
         url: "#",
       },
     ],
-  },    
+  },
   {
     avatar: avatarThumb3,
     name: "Lynnette Wilkes",
@@ -62,7 +62,7 @@ const data = [
         url: "#",
       },
     ],
-  },    
+  },
   {
     avatar: avatarThumb4,
     name: "Claudia Hicks",
@@ -81,7 +81,7 @@ const data = [
         url: "#",
       },
     ],
-  },    
+  },
 ];
 
 export default data;

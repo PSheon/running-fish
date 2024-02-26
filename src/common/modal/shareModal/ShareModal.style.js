@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { fadeIn } from "react-animations";
-import modalBg from "@/src/assets/images/bg/modal2_overlay.png";
+import modalBg from "@/assets/images/bg/modal2_overlay.png";
 
 const modalAnimation = keyframes`${fadeIn}`;
 

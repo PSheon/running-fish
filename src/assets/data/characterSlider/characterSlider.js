@@ -1,9 +1,9 @@
-import characterThumb1 from "@/src/assets/images/nft/carousel_avater1.png";
-import characterThumb2 from "@/src/assets/images/nft/carousel_avater2.png";
-import characterThumb3 from "@/src/assets/images/nft/carousel_avater3.png";
-import characterThumb4 from "@/src/assets/images/nft/carousel_avater4.png";
-import characterThumb5 from "@/src/assets/images/nft/carousel_avater5.png";
-import characterThumb6 from "@/src/assets/images/nft/carousel_avater6.png";
+import characterThumb1 from "@/assets/images/nft/carousel_avater1.png";
+import characterThumb2 from "@/assets/images/nft/carousel_avater2.png";
+import characterThumb3 from "@/assets/images/nft/carousel_avater3.png";
+import characterThumb4 from "@/assets/images/nft/carousel_avater4.png";
+import characterThumb5 from "@/assets/images/nft/carousel_avater5.png";
+import characterThumb6 from "@/assets/images/nft/carousel_avater6.png";
 
 const data = [
   {

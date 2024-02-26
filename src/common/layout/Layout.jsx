@@ -1,6 +1,6 @@
 import Head from "next/head";
-import GlobalStyles from "@/src/assets/styles/GlobalStyles";
-import favIcon from "@/src/assets/images/fav.png";
+import GlobalStyles from "@/assets/styles/GlobalStyles";
+import favIcon from "@/assets/images/fav.png";
 const Layout = ({ children }) => {
   return (
     <>

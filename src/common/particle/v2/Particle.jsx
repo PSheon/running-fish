@@ -1,4 +1,4 @@
-import data from "@/src/assets/data/particle/bannerV3Particle";
+import data from "@/assets/data/particle/bannerV3Particle";
 const Particle = () => {
   return (
     <>

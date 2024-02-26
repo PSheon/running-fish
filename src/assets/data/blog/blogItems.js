@@ -1,12 +1,12 @@
-import thumb1 from "@/src/assets/images/blog/blog-img.png";
-import thumb2 from "@/src/assets/images/blog/blog-img2.png";
-import thumb3 from "@/src/assets/images/blog/blog-img3.png";
-import thumb4 from "@/src/assets/images/blog/blog-img4.png";
-import thumb5 from "@/src/assets/images/blog/blog-img5.png";
-import thumb6 from "@/src/assets/images/blog/blog-img6.png";
-import thumb7 from "@/src/assets/images/blog/blog-img7.png";
-import thumb8 from "@/src/assets/images/blog/blog-img8.png";
-import thumb9 from "@/src/assets/images/blog/blog-img9.png";
+import thumb1 from "@/assets/images/blog/blog-img.png";
+import thumb2 from "@/assets/images/blog/blog-img2.png";
+import thumb3 from "@/assets/images/blog/blog-img3.png";
+import thumb4 from "@/assets/images/blog/blog-img4.png";
+import thumb5 from "@/assets/images/blog/blog-img5.png";
+import thumb6 from "@/assets/images/blog/blog-img6.png";
+import thumb7 from "@/assets/images/blog/blog-img7.png";
+import thumb8 from "@/assets/images/blog/blog-img8.png";
+import thumb9 from "@/assets/images/blog/blog-img9.png";
 
 const data = {
   posts: [
