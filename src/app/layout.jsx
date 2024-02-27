@@ -6,6 +6,7 @@ import "@/assets/css/bootstrap.min.css";
 import "@/assets/css/slick.min.css";
 import "@/assets/css/slick-theme.min.css";
 import GlobalStyles from "@/assets/styles/GlobalStyles";
+import StyledComponentsRegistry from "@/lib/registry";
 
 export default function RootLayout({ children }) {
   return (
@@ -18,7 +19,9 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <GlobalStyles />
-        <ContextProvider>{children}</ContextProvider>
+        <ContextProvider>
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        </ContextProvider>
       </body>
     </html>
   );
