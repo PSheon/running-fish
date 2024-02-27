@@ -52,6 +52,8 @@ const HeaderStyleWrapper = styled.div`
   }
 
   @media (max-width: 480px) {
+    height: 64px;
+
     .header_menu_buttons {
       column-gap: 25px;
 
