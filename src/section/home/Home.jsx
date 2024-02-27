@@ -11,9 +11,9 @@ import { useModal } from "@/utils/ModalContext";
 import Header from "@/section/home/header";
 import Banner from "@/section/home/banner";
 import About from "@/section/home/about";
-import RoadMap from "@/section/home/road-map";
-import Team from "@/section/home/team";
-import FAQ from "@/section/home/faq";
+// import RoadMap from "@/section/home/road-map";
+// import Team from "@/section/home/team";
+// import FAQ from "@/section/home/faq";
 // import MetamaskModal from "@/common/modal/metamaskModal/MetamaskModal";
 // import MintNowModal from "@/common/modal/mintNowModal";
 import WalletModal from "@/common/modal/walletModal/WalletModal";
@@ -43,15 +43,15 @@ const Home = () => {
             <Tab>
               <span>02.</span> About
             </Tab>
-            <Tab>
+            {/* <Tab>
               <span>03.</span> Roadmap
-            </Tab>
-            <Tab>
+            </Tab> */}
+            {/* <Tab>
               <span>04.</span> Team
-            </Tab>
-            <Tab>
+            </Tab> */}
+            {/* <Tab>
               <span>05.</span> FAQ
-            </Tab>
+            </Tab> */}
           </TabList>
 
           <TabPanel>
@@ -60,15 +60,15 @@ const Home = () => {
           <TabPanel>
             <About />
           </TabPanel>
-          <TabPanel>
+          {/* <TabPanel>
             <RoadMap />
-          </TabPanel>
-          <TabPanel>
+          </TabPanel> */}
+          {/* <TabPanel>
             <Team />
-          </TabPanel>
-          <TabPanel>
+          </TabPanel> */}
+          {/* <TabPanel>
             <FAQ />
-          </TabPanel>
+          </TabPanel> */}
         </Tabs>
       </StyleWrapper>
     </Fragment>

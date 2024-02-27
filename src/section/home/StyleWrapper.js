@@ -18,7 +18,7 @@ const StyleWrapper = styled.div`
       margin: 0;
       padding: 0;
       display: flex !important;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       background: rgba(255, 255, 255, 0.15);
       backdrop-filter: blur(4px);
