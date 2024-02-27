@@ -157,7 +157,7 @@ const BannerWrapper = styled.section`
       }
 
       .coin-info {
-        margin-top: 25px;
+        margin-top: 40px;
         span {
           font-size: 14px;
           line-height: 25px;

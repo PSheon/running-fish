@@ -14,7 +14,7 @@ import CoinInfoSlider from "@/section/home/banner/coin-info-slider";
 import BannerWrapper from "./Banner.style";
 
 // ** Asset Imports
-import heartIcon from "@/assets/images/home/banner/hart-icon.svg";
+// import heartIcon from "@/assets/images/home/banner/hart-icon.svg";
 import thumb1 from "@/assets/images/home/banner/fish-egg-01.png";
 import particle1 from "@/assets/images/home/banner/thunder-icon.svg";
 import particle2 from "@/assets/images/home/banner/star-icon.svg";
@@ -45,12 +45,11 @@ const Banner = () => {
     <BannerWrapper id="home">
       <div className="container">
         <div className="row banner_row">
-          <div className="col-lg-6 order-1 order-lg-0">
+          <div className="col-lg-7 order-1 order-lg-0">
             <div className="banner_left">
-              <h2>
-                BUILD & SELL YOUR EVERY PIXEL{" "}
-                <Image width={57} height={50} src={heartIcon.src} alt="icon" />
-              </h2>
+              <h3>Renouncing ownership! No roadmap!</h3>
+              <h3>Just make</h3>
+              <h2>running fish strong! 💪</h2>
               <h3>
                 <span className="count">
                   <Counter end={5555} duration={5555} />
@@ -64,23 +63,24 @@ const Banner = () => {
                   onClick={() => mintModalHandle()}
                 >
                   {" "}
-                  Mint now
+                  Buy now
                 </Button>
-                <Button size="sm" variant="outline">
+                {/* <Button size="sm" variant="outline">
                   Wishlist now
-                </Button>
+                </Button> */}
               </div>
               <div className="coin-info">
-                <span>Max 2 NFTs per wallet . Price 0.09 ETH + gas</span>
-                <span>
+                <span>Total Supply: 10,000,000</span>
+                <span>Price: 0.0000001 BNB</span>
+                {/* <span>
                   MINT IS LIVE{" "}
                   <span className="highlighted">UNTIL 25 APR 04:00H</span>
-                </span>
-                <span>Presale : SOLDOUT</span>
+                </span> */}
+                {/* <span>Presale : SOLDOUT</span> */}
               </div>
             </div>
           </div>
-          <div className="col-lg-6 order-0 order-lg-1">
+          <div className="col-lg-5 order-0 order-lg-1">
             <div className="banner_right">
               {/* <Slider {...settings}>
                 {slideImages?.map((thumb, idx) => (
