@@ -101,13 +101,13 @@ const Banner = () => {
 
       <CoinInfoSlider />
 
-      <span className="particle_star particle_1">
+      <span className="particle particle_sea_turtle">
         <Image width={75} height={100} src={seaTurtleImage.src} alt="icon" />
       </span>
-      <span className="particle_star particle_2">
+      <span className="particle particle_jellyfish">
         <Image width={90} height={80} src={jellyfishImage.src} alt="icon" />
       </span>
-      <span className="particle_star particle_3">
+      <span className="particle particle_nautilus">
         <Image width={76} height={72} src={nautilusImage.src} alt="icon" />
       </span>
     </BannerWrapper>

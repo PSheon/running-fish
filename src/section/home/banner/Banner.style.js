@@ -4,16 +4,16 @@ import styled, { keyframes } from "styled-components";
 // ** Asset Imports
 import sectionBgImage from "@/assets/images/home/banner/bg.png";
 
-const particle1 = keyframes`
+const particleSeaTurtle = keyframes`
   0%,
   100% {
-      top: 130px;
+    top: 130px;
   },
   50% {
-      top: 170px;
+    top: 170px;
 }
 `;
-const particle2 = keyframes`
+const particleJellyfish = keyframes`
   0%,
   100% {
     top: 50px;
@@ -121,22 +121,33 @@ const BannerWrapper = styled.section`
   }
 
   // particles
-  .particle_star {
+  .particle {
     position: absolute;
 
-    &.particle_1 {
+    &.particle_sea_turtle {
       left: 140px;
       top: 150px;
-      animation: ${particle1} 5s infinite;
+      animation: ${particleSeaTurtle} 5s infinite;
     }
-    &.particle_2 {
+    &.particle_jellyfish {
       right: 280px;
       top: 70px;
-      animation: ${particle2} 5s infinite;
+      animation: ${particleJellyfish} 5s infinite;
     }
-    &.particle_3 {
+    &.particle_nautilus {
       right: 75px;
       bottom: 250px;
+    }
+  }
+
+  .banner_thumb {
+    display: flex;
+    cursor: pointer;
+    transition: filter 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
     }
   }
 
@@ -181,13 +192,15 @@ const BannerWrapper = styled.section`
     .banner_left {
       padding-left: 70px;
     }
-    .particle_star {
+    .particle {
       display: none;
     }
 
     .banner_thumb {
       width: 300px;
       margin: 0 auto;
+      display: flex;
+      justify-content: center;
     }
   }
 
