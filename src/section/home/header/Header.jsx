@@ -11,7 +11,7 @@ import WalletProfile from "@/section/home/header/wallet-profile/WalletProfile";
 import HeaderStyleWrapper from "./Header.style";
 
 // ** Asset Imports
-import logo from "@/assets/images/home/header/logo.png";
+import semiLogoImage from "@/assets/images/home/header/semi-logo.png";
 
 const Header = () => {
   // ** Side Effects
@@ -36,7 +36,12 @@ const Header = () => {
         <div className="header_wrapper">
           <div className="header_left">
             <div className="logo">
-              <Image width={28} height={28} src={logo.src} alt="logo" />
+              <Image
+                width={48}
+                height={48}
+                src={semiLogoImage.src}
+                alt="running fish"
+              />
             </div>
           </div>
           <div className="header_right">
