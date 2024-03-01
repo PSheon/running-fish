@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           name="keywords"
           content="bsc,eth,sale,on sale,all time low,wagmi,twitter,x"
         />
-        {/* OG */}
+        {/* Open Graph Tags */}
         <meta property="og:title" content="Running Fish" />
         <meta property="og:site_name" content="Running Fish" />
         <meta property="og:url" content="https://www.koreafish.xyz" />
@@ -30,6 +30,19 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
+          content="https://www.koreafish.xyz/seo/banner.png"
+        />
+        {/* Twitter Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="koreafish.xyz" />
+        <meta property="twitter:url" content="https://www.koreafish.xyz" />
+        <meta name="twitter:title" content="Running Fish" />
+        <meta
+          name="twitter:description"
+          content="Renouncing ownership! Just make running fish strong!💪"
+        />
+        <meta
+          name="twitter:image"
           content="https://www.koreafish.xyz/seo/banner.png"
         />
 
