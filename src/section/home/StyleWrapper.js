@@ -11,7 +11,7 @@ const StyleWrapper = styled.div`
   .react-tabs {
     &__tab-list {
       position: fixed;
-      z-index: 99;
+      z-index: 20;
       bottom: 0;
       width: 100%;
       border-bottom: 0;

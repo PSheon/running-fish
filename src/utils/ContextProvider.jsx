@@ -18,8 +18,11 @@ const ContextProvider = ({ children }) => {
   const mintModalHandle = () => {
     setVisibility(!visibility);
   };
-  const walletModalHandle = () => {
-    setModalVisibility(!walletModalVisibility);
+  const showWalletModal = () => {
+    setModalVisibility(() => true);
+  };
+  const hideWalletModal = () => {
+    setModalVisibility(() => false);
   };
   const shareModalHandle = (e) => {
     e.preventDefault();
@@ -39,7 +42,8 @@ const ContextProvider = ({ children }) => {
       value={{
         visibility,
         mintModalHandle,
-        walletModalHandle,
+        showWalletModal,
+        hideWalletModal,
         walletModalVisibility,
         shareModalVisibility,
         shareModalHandle,

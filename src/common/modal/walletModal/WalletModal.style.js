@@ -4,6 +4,15 @@ import modalBg from "@/assets/images/modal/overlay.png";
 
 const modalAnimation = keyframes`${fadeIn}`;
 
+const rotate = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+`;
+
 const WalletModalStyleWrapper = styled.div`
   &.modal_overlay {
     position: fixed;
@@ -12,7 +21,7 @@ const WalletModalStyleWrapper = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 999999;
+    z-index: 30;
     display: flex;
     justify-content: center;
 
@@ -139,6 +148,10 @@ const WalletModalStyleWrapper = styled.div`
       span {
         position: absolute;
         right: 20px;
+
+        & .loading-icon {
+          animation: 0.35s ${rotate} infinite;
+        }
       }
     }
   }

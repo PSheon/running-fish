@@ -4,14 +4,8 @@ import { useEffect, Fragment } from "react";
 // ** Next Imports
 import Image from "next/image";
 
-// ** Context Imports
-import { useModal } from "@/utils/ModalContext";
-
-// ** Icon Imports
-import { FaWallet } from "react-icons/fa";
-
 // ** Component Imports
-import Button from "@/common/button";
+import WalletProfile from "@/section/home/header/wallet-profile/WalletProfile";
 
 // ** Style Imports
 import HeaderStyleWrapper from "./Header.style";
@@ -20,9 +14,6 @@ import HeaderStyleWrapper from "./Header.style";
 import logo from "@/assets/images/home/header/logo.png";
 
 const Header = () => {
-  // ** Hooks
-  const { walletModalHandle } = useModal();
-
   // ** Side Effects
   useEffect(() => {
     const header = document.getElementById("navbar");
@@ -49,16 +40,7 @@ const Header = () => {
             </div>
           </div>
           <div className="header_right">
-            <div className="header_menu_buttons">
-              <Button
-                size="sm"
-                variant="hovered"
-                className="connect_button"
-                onClick={() => walletModalHandle()}
-              >
-                <FaWallet /> Connect
-              </Button>
-            </div>
+            <WalletProfile />
           </div>
         </div>
       </HeaderStyleWrapper>
