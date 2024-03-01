@@ -7,7 +7,11 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Running Fish",
+    text: "Running",
+  },
+  {
+    icon: shapeIcon,
+    text: "Fish",
   },
   {
     icon: shapeIcon,
@@ -15,7 +19,11 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Running Fish",
+    text: "Running",
+  },
+  {
+    icon: shapeIcon,
+    text: "Fish",
   },
   {
     icon: shapeIcon,
@@ -23,7 +31,11 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Running Fish",
+    text: "Running",
+  },
+  {
+    icon: shapeIcon,
+    text: "Fish",
   },
   {
     icon: shapeIcon,
@@ -31,7 +43,11 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Running Fish",
+    text: "Running",
+  },
+  {
+    icon: shapeIcon,
+    text: "Fish",
   },
   {
     icon: shapeIcon,
@@ -39,15 +55,11 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Running Fish",
+    text: "Running",
   },
   {
     icon: shapeIcon,
-    text: "On Sale",
-  },
-  {
-    icon: shapeIcon,
-    text: "Running Fish",
+    text: "Fish",
   },
 ];
 
