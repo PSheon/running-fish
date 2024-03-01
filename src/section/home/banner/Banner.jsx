@@ -16,9 +16,9 @@ import BannerWrapper from "./Banner.style";
 // ** Asset Imports
 // import heartIcon from "@/assets/images/home/banner/hart-icon.svg";
 import thumb1 from "@/assets/images/home/banner/fish-egg-01.png";
-import particle1 from "@/assets/images/home/banner/thunder-icon.svg";
-import particle2 from "@/assets/images/home/banner/star-icon.svg";
-import particle3 from "@/assets/images/home/banner/coin-icon.svg";
+import seaTurtleImage from "@/assets/images/home/banner/sea-turtle.png";
+import jellyfishImage from "@/assets/images/home/banner/jellyfish.png";
+import nautilusImage from "@/assets/images/home/banner/nautilus.png";
 
 const Banner = () => {
   // ** Hooks
@@ -50,12 +50,12 @@ const Banner = () => {
               <h3>Renouncing ownership! No roadmap!</h3>
               <h3>Just make</h3>
               <h2>running fish strong! 💪</h2>
-              <h3>
+              {/* <h3>
                 <span className="count">
                   <Counter end={5555} duration={5555} />
                 </span>{" "}
                 / 5555 Minted
-              </h3>
+              </h3> */}
               <div className="banner_buttons">
                 <Button
                   size="sm"
@@ -102,13 +102,13 @@ const Banner = () => {
       <CoinInfoSlider />
 
       <span className="particle_star particle_1">
-        <Image width={75} height={100} src={particle1.src} alt="icon" />
+        <Image width={75} height={100} src={seaTurtleImage.src} alt="icon" />
       </span>
       <span className="particle_star particle_2">
-        <Image width={90} height={80} src={particle2.src} alt="icon" />
+        <Image width={90} height={80} src={jellyfishImage.src} alt="icon" />
       </span>
       <span className="particle_star particle_3">
-        <Image width={76} height={72} src={particle3.src} alt="icon" />
+        <Image width={76} height={72} src={nautilusImage.src} alt="icon" />
       </span>
     </BannerWrapper>
   );
