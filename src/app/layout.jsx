@@ -15,6 +15,23 @@ export default function RootLayout({ children }) {
         {/* Meta */}
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <meta
+          name="keywords"
+          content="bsc,eth,sale,on sale,all time low,wagmi,twitter,x"
+        />
+        {/* OG */}
+        <meta property="og:title" content="Running Fish" />
+        <meta property="og:site_name" content="Running Fish" />
+        <meta property="og:url" content="https://www.koreafish.xyz" />
+        <meta
+          property="og:description"
+          content="Renouncing ownership! Just make running fish strong!💪"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.koreafish.xyz/seo/banner.png"
+        />
 
         {/* Link */}
         <link
