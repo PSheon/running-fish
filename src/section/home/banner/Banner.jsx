@@ -1,4 +1,5 @@
 // ** Next Imports
+import Link from "next/link";
 import Image from "next/image";
 
 // ** Context Imports
@@ -50,21 +51,22 @@ const Banner = () => {
               <h3>Renouncing ownership! No roadmap!</h3>
               <h3>Just make</h3>
               <h2>running fish strong! 💪</h2>
-              {/* <h3>
-                <span className="count">
+              <h3>
+                {/* <span className="count">
                   <Counter end={5555} duration={5555} />
-                </span>{" "}
-                / 5555 Minted
-              </h3> */}
+                </span>{" "} */}
+                {/* Your balance: {"  "}
+                <span className="count">0</span> */}
+              </h3>
               <div className="banner_buttons">
-                <Button
-                  size="sm"
-                  variant="mint"
-                  onClick={() => mintModalHandle()}
+                <Link
+                  href="https://pancakeswap.finance/swap?chain=bscTestnet&outputCurrency=0x918af9De1d46A33416C75Da4746a9507793cE957&inputCurrency=0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+                  target="_blank"
                 >
-                  {" "}
-                  Buy now
-                </Button>
+                  <Button size="sm" variant="mint">
+                    Buy now
+                  </Button>
+                </Link>
                 {/* <Button size="sm" variant="outline">
                   Wishlist now
                 </Button> */}
