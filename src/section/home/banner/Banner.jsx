@@ -10,6 +10,7 @@ import { useModal } from "@/utils/ModalContext";
 import Counter from "@/common/counter";
 import Button from "@/common/button";
 import CoinInfoSlider from "@/section/home/banner/coin-info-slider";
+import LabelRibbon from "@/section/home/banner/label-ribbon";
 
 // ** Style Imports
 import BannerWrapper from "./Banner.style";
@@ -100,6 +101,8 @@ const Banner = () => {
           </div>
         </div>
       </div>
+
+      <LabelRibbon />
 
       <CoinInfoSlider />
 
