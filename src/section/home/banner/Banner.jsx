@@ -7,7 +7,7 @@ import { useModal } from "@/utils/ModalContext";
 
 // ** Component Imports
 // import { Slider, SliderItem } from "@/common/slider/Slider";
-import Counter from "@/common/counter";
+// import Counter from "@/common/counter";
 import Button from "@/common/button";
 import CoinInfoSlider from "@/section/home/banner/coin-info-slider";
 import LabelRibbon from "@/section/home/banner/label-ribbon";
