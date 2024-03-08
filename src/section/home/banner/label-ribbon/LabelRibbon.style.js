@@ -10,17 +10,27 @@ const LabelRibbonWrapper = styled.section`
   .ribbon-wrapper {
     position: absolute;
     width: fit-content;
+    pointer-events: auto;
     background-color: #31859d;
     border: 4px solid #effdff;
     color: #effdff;
     padding: 2px 16px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.3);
+    }
   }
 
   .private-team {
     left: 80px;
-    top: 120px;
+    top: 160px;
     transform: rotate(-20deg);
   }
 
@@ -31,14 +41,14 @@ const LabelRibbonWrapper = styled.section`
   }
 
   .no-vc {
-    left: 600px;
-    top: 340px;
+    left: 52%;
+    top: 30%;
     transform: rotate(20deg);
   }
 
   .no-ido {
-    left: 600px;
-    top: 440px;
+    left: 45%;
+    top: 55%;
     transform: rotate(-10deg);
   }
 
