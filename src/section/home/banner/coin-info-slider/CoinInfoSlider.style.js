@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ConinInfoSliderWrapper = styled.section`
+const CoinInfoSliderWrapper = styled.section`
   background: #ffe600;
   padding: 20px 0;
   font-family: "Bakbak One";
@@ -21,4 +21,4 @@ const ConinInfoSliderWrapper = styled.section`
   }
 `;
 
-export default ConinInfoSliderWrapper;
+export default CoinInfoSliderWrapper;
