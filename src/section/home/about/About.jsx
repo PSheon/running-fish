@@ -1,5 +1,9 @@
+// ** Next Imports
+import Link from "next/link";
+
 // ** Component Imports
 import Counter from "@/common/counter";
+import Button from "@/common/button";
 import SectionTitle from "@/common/sectionTitle";
 
 // ** Style Imports
@@ -83,6 +87,17 @@ const About = () => {
                 </h3>
                 <h6>Volume Traded (ETH)</h6>
               </div>
+            </div>
+
+            <div className="about_right_item">
+              <Link
+                href="https://pancakeswap.finance/swap?chain=bscTestnet&outputCurrency=0x918af9De1d46A33416C75Da4746a9507793cE957&inputCurrency=0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+                target="_blank"
+              >
+                <Button size="sm" variant="mint">
+                  Buy now
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
