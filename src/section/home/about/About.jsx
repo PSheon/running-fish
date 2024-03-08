@@ -11,7 +11,7 @@ import data from "@/assets/data/about/dataV2";
 const About = () => {
   // ** Vars
   const { aboutDescription1, aboutDescription2 } = data;
-  
+
   return (
     <AboutStyleWrapper>
       <div className="container">
@@ -24,8 +24,15 @@ const About = () => {
                 className="section_title"
               />
               <div className="about_us_left_text">
-                <p>{aboutDescription1}</p>
-                <p>{aboutDescription2}</p>
+                <p>1. Private Team</p>
+                <p>2. No Roadmap (running continue...)</p>
+                <p>3. No Empowerment</p>
+                <p>4. No VC</p>
+                <p>5. No IDO</p>
+                <p>6. No Pre-mining</p>
+                <p>7. No Pre-sale</p>
+                <br />
+                <p>Just buy it make running fish strong! 💪</p>
               </div>
             </div>
           </div>
@@ -35,42 +42,42 @@ const About = () => {
               <div className="counter_item">
                 <h3>
                   <Counter
-                    end={9999}
+                    end={10_000_000}
                     decimal="."
-                    decimals={9999 % 1 !== 0 ? "2" : "0"}
+                    decimals={10_000_000 % 1 !== 0 ? "2" : "0"}
                     suffix={""}
                   />
                 </h3>
-                <h6>Total Items</h6>
+                <h6>Total Supply</h6>
               </div>
               <div className="counter_item">
                 <h3>
                   <Counter
-                    end={0.06}
+                    end={9_994_978}
                     decimal="."
-                    decimals={0.06 % 1 !== 0 ? "2" : "0"}
+                    decimals={9_994_978 % 1 !== 0 ? "2" : "0"}
                     suffix={""}
                   />
                 </h3>
-                <h6>NFT Mint Price</h6>
+                <h6>Current Supply</h6>
               </div>
               <div className="counter_item">
                 <h3>
                   <Counter
-                    end={555}
+                    end={5_022}
                     decimal="."
-                    decimals={555 % 1 !== 0 ? "2" : "0"}
+                    decimals={5_022 % 1 !== 0 ? "2" : "0"}
                     suffix={"+"}
                   />
                 </h3>
-                <h6>Number of Attributes</h6>
+                <h6>Total Burned</h6>
               </div>
               <div className="counter_item">
                 <h3>
                   <Counter
-                    end={25.5}
+                    end={255}
                     decimal="."
-                    decimals={25.5 % 1 !== 0 ? "2" : "0"}
+                    decimals={255 % 1 !== 0 ? "2" : "0"}
                     suffix={"K"}
                   />
                 </h3>

@@ -28,11 +28,7 @@ const AboutStyleWrapper = styled.section`
 
     p {
       color: rgba(255, 255, 255, 0.8);
-      margin-bottom: 20px;
-    }
-
-    p + p {
-      margin-bottom: 0;
+      margin-bottom: 5px;
     }
   }
 
@@ -85,7 +81,7 @@ const AboutStyleWrapper = styled.section`
       margin-top: 23px;
 
       p {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 20px;
       }
     }
