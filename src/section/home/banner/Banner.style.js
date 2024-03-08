@@ -152,13 +152,16 @@ const BannerWrapper = styled.section`
 
   .banner_thumb {
     display: flex;
-    cursor: pointer;
-    transition: filter 0.3s ease, transform 0.3s ease;
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.8));
 
-    &:hover {
-      transform: scale(1.05);
-      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+    img {
+      cursor: pointer;
+      transition: filter 0.3s ease, transform 0.3s ease;
+      filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.8));
+      transform: rotate(5deg);
+      &:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+      }
     }
   }
 
