@@ -7,10 +7,10 @@ import sectionBgImage from "@/assets/images/home/banner/bg.png";
 const particleSeaTurtle = keyframes`
   0%,
   100% {
-    top: 130px;
+    top: 160px;
   },
   50% {
-    top: 170px;
+    top: 200px;
 }
 `;
 const particleJellyfish = keyframes`
@@ -20,6 +20,15 @@ const particleJellyfish = keyframes`
   },
   50% {
     top: 75px;
+  }
+`;
+const particleNautilus = keyframes`
+  0%,
+  100% {
+    transform: rotate(20deg);
+  },
+  50% {
+    transform: rotate(-20deg);
   }
 `;
 
@@ -126,17 +135,18 @@ const BannerWrapper = styled.section`
 
     &.particle_sea_turtle {
       left: 140px;
-      top: 150px;
+      top: 180px;
       animation: ${particleSeaTurtle} 5s infinite;
     }
     &.particle_jellyfish {
-      right: 280px;
+      right: 340px;
       top: 70px;
       animation: ${particleJellyfish} 5s infinite;
     }
     &.particle_nautilus {
       right: 75px;
-      bottom: 250px;
+      bottom: 300px;
+      animation: ${particleNautilus} 5s infinite;
     }
   }
 
@@ -144,6 +154,7 @@ const BannerWrapper = styled.section`
     display: flex;
     cursor: pointer;
     transition: filter 0.3s ease, transform 0.3s ease;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.8));
 
     &:hover {
       transform: scale(1.05);
